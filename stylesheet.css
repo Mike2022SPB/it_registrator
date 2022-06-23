@@ -20,18 +20,20 @@
 }
 
 .intro_block{
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(138, 186, 86, 0), snow 95%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
   text-align: center;
-  background-image: url("intro_image.jpg");
-  font-family: PressStart2P-Regular;
-  font-size: 25px;
   color: white;
-  margin-top: 2%;
-  height: auto;
-  width: auto;
   padding: 15%;
 }
 
 .intro_line{
+  font-family: PressStart2P-Regular;
+  font-size: 25px;
   background-color: rgba(0,0,0,50%);
   padding: 5%;
 }
