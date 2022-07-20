@@ -80,7 +80,7 @@
   text-align: center;
 }
 
-.video{
+.tube{
   width:50%
 }
 .box_text{
@@ -139,4 +139,18 @@
   width: 40%;
   text-align: center;
   padding: 5%;
+}
+
+button {
+  font-family: PressStart2P-Regular;
+  font-size: 25px;
+  height: 30px;
+  width: 500px;
+  outline: none;
+  background-color: red;
+}
+
+button:hover {
+  background-color: black;
+  color: red;
 }
