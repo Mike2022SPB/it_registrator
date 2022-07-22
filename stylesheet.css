@@ -40,11 +40,7 @@ body {
 
 .features {
   width: auto;
-  height: 520px;
-}
-
-.height_400 {
-  height: 400px;
+  display: inline-block;
 }
 
 .padding_five {
