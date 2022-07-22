@@ -73,15 +73,17 @@ body {
 }
 
 .video_block {
-  height: 400px;
-  max-height: 700px;
+  display: inline-block;
   display: flex;
   justify-content: space-evenly;
   width: auto;
+  padding: 2%;
 }
 
 .left_video {
   max-width: 49%;
+  vertical-align: center;
+  margin-top: 2%;
 }
 
 .link_image {
