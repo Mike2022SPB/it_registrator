@@ -103,8 +103,11 @@ body {
 .contacts {
   margin-top: 50px;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin-bottom: 70px;
+  padding: 0;
+  font-size: 20px;
+  color: red;
 }
 
 .ways {
@@ -126,4 +129,84 @@ button {
 button:hover {
   background-color: black;
   color: red;
+}
+
+@media (max-width:960px) {
+  .padding_five {
+    padding: 10px;
+  }
+
+  body {
+    background-color: black;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family: PressStart2P-Regular;
+  }
+ 
+  .wrapper {
+    width: 720px;
+    margin: 0% auto;
+    min-width: 480px;
+    max-width: 75%;
+  }
+
+  .header {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .intro_block {
+    background-image: linear-gradient(rgba(138, 186, 86, 0), snow 95%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll, fixed;
+    background-position: 0 0%, center top;
+    padding: 50px;
+  }
+
+  .intro_line {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .float_left {
+    float: center;
+  }
+  
+  .column {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video_block {
+    display: inline-block;
+    width: auto;
+    padding: 2%;
+}
+
+  .left_video {
+    margin-top: 2%;
+    max-width: 100%;
+  }
+
+  .right_text {
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .icons {
+    width: 60%;
+    height: 60%;
+  }
+
+  .contacts {
+    padding: 0;
+    font-size: 20px;
+    color: red;
+  }
+
 }
