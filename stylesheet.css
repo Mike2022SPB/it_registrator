@@ -132,6 +132,7 @@ button:hover {
 }
 
 @media (max-width:960px) {
+  
   .padding_five {
     padding: 10px;
   }
